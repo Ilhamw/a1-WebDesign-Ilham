@@ -1,0 +1,241 @@
+@charset "UTF-8";
+
+
+#page-bg {
+  background: url(book-fair-678264_1280.jpg);
+  -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  -o-filter: blur(3px);
+  -ms-filter: blur(3px);
+  filter: blur(3px);
+  position: fixed;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  
+}  
+
+header{
+	height:100px;
+	background: darkturquoise;
+	opacity: 0.8;
+	font-family:"aguafina-script";
+	margin-right: 1%;
+	margin-left: 1%;
+	margin-top: -10px;
+	padding: 0px 30px 0px 30px;
+	
+}
+
+header h1 {
+	font-weight: bold;
+	font-size: 36px;
+	color: #A826D4;
+	font-style:italic;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	overflow: hidden;
+    background-color: skyblue;
+}
+header li {
+	float: left;
+	display: inline;
+	border-left: 1px solid #bbb;
+	border-right: 1px solid #bbb;
+	width: 16.535555%;
+	
+}
+
+header li:last-child {
+	border-left: none;
+	
+}
+
+header li a {
+    display: block;
+    color: darkmagenta;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+header li a:hover {
+    background-color: darkmagenta;
+    color: white;
+}
+
+.content {
+	background-color: white;
+	opacity: 0.95;
+	height: 800px;
+	margin-top: 10px;
+	padding-top: 5px;
+}
+
+.content h1 {
+	font-weight:400;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color: #FFE0FF;
+	background-color: deepskyblue;
+}
+
+.content custom {
+	font-weight:700;
+	font-style: italic;
+	
+}
+.content h2 {
+	color: #1a1aff;
+	font-size: 24px;
+	float: centre;
+	text-align:center;
+	margin-top: 50px;
+	margin-left: -80px;
+}
+
+.content p2 {
+	color: #3333ff;
+	float: centre;
+	text-align:center;
+	margin-top: 40px;
+	width: 50%;
+}
+
+.content p3 {
+	color: #3333ff;
+	float: left;
+	text-align: left;
+	margin-left: 35px;
+	margin-top: 20px;
+}
+
+.content p3 p {
+	color: darkmagenta;
+	float: center;
+	text-align: center;
+	margin-top: 30px;
+	margin-left: 45%;
+	margin-right: 25%;
+	font-size: 36px;
+	font-family:Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";	
+}
+
+.content p {
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 18px;
+	text-align:center;
+}
+
+.content p4 {
+	font-size:18px;
+	
+}
+
+.content p5 {
+	font-size: 36px;
+	margin: 220px;
+	
+	
+}
+
+left1 img {
+	float: left;
+	margin-top: -50px;
+	margin-left: 10px;
+}
+
+left2 img {
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+centre1 img {
+	margin: auto;
+	display: block;
+}
+
+right1 img {
+	float: right;
+	margin-top: -70px;
+	margin-right: 20px;
+}
+
+right1 img {
+	float: right;
+	margin-top: -70px;
+	margin-right: 20px;
+}
+
+right2 img {
+	float: right;
+	margin-top: -100px;
+	margin-right: 20px;
+}
+
+.box{
+	border:double;
+	border-color: darkmagenta;
+	background: none;
+	padding: 20px;
+	border:1px solid groove;
+	border-radius:30px;
+	color: darkmagenta;
+	cursor: pointer;
+	margin-right: 10px;
+}
+
+.box:hover{
+	background:darkmagenta;
+	color: white;
+	border: double;
+	boder-color: darkmagenta;
+	
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 75%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+
+footer {
+	height: 150px;
+	background: darkturquoise;
+	opacity: 0.9;
+	font-family:"aguafina-script";
+	padding: 0px 10px 0px 10px;
+	width: auto;
+}
+
+footer h1 {
+	font-size: 24px;
+	font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+}
+
+footer p1 {
+	text-align: left;
+	color: white;
+}
+
+footer p2 {
+	text-align: center;
+	color: white;
